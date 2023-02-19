@@ -41,5 +41,40 @@
             Assert.That(this._townsCollectionOne.Towns.Count(), Is.EqualTo(2));
             Assert.That(this._townsCollectionOne.ToString(), Is.EqualTo("Sofia, Tokyo"));
         }
+
+        [Test]
+        public void Test_Town_Collection_Add_Duplicated_Method()
+        {
+            var isAdded = this._townsCollectionOne.Add("Sofia");
+            Assert.False(isAdded);
+        }
+
+        [Test]
+        public void Test_Town_Collection_Empty_Town_Add_Method()
+        {
+            var isAdded = this._townsCollectionOne.Add("");
+            Assert.False(isAdded);
+        }
+
+        [Test]
+        public void Test_Town_Collection_RemoveAt_Method()
+        {
+            this._townsCollectionTwo.RemoveAt(1);
+            Assert.That(this._townsCollectionTwo.Towns.Count(), Is.EqualTo(1));
+            Assert.That(this._townsCollectionOne.ToString(), Is.EqualTo("Sofia"));
+        }
+
+        [Test]
+        public void Test_Town_Collection_OutOfRangeIndex_RemoveAt_Method()
+        {
+            try
+            {
+                this._townsCollectionTwo.RemoveAt(50);
+            }
+            catch(ArgumentOutOfRangeException)
+            {
+                Assert.Pass();
+            }
+        }
     }
 }
