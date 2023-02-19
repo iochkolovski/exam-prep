@@ -11,6 +11,12 @@
             _townsCollectionOne = new TownsCollection("Sofia");
             _townsCollectionTwo = new TownsCollection("Sofia, London");
         }
+        [TearDown]
+        public void Teardown()
+        {
+            _townsCollectionOne.Towns.Clear();
+            _townsCollectionTwo.Towns.Clear();
+        }
 
         [Test]
         public void Tets_Constructor_Empty()
@@ -72,6 +78,32 @@
                 this._townsCollectionTwo.RemoveAt(50);
             }
             catch(ArgumentOutOfRangeException)
+            {
+                Assert.Pass();
+            }
+        }
+
+        [Test]
+        public void Test_Town_Collection_Empty_Reverse_Method()
+        {
+            try
+            {
+                this._townsCollectionTwo.Reverse();
+            }
+            catch (ArgumentNullException)
+            {
+                Assert.Pass();
+            }
+        }
+
+        [Test]
+        public void Test_Town_Collection_One_Element_Reverse_Method()
+        {
+            try
+            {
+                this._townsCollectionOne.Reverse();
+            }
+            catch (InvalidOperationException)
             {
                 Assert.Pass();
             }

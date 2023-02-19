@@ -1,0 +1,15 @@
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\bin\Debug\net6.0\Towns.exe
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\bin\Debug\net6.0\Towns.deps.json
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\bin\Debug\net6.0\Towns.runtimeconfig.json
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\bin\Debug\net6.0\Towns.dll
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\bin\Debug\net6.0\Towns.pdb
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.csproj.AssemblyReference.cache
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.AssemblyInfoInputs.cache
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.AssemblyInfo.cs
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.csproj.CoreCompileInputs.cache
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.dll
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\refint\Towns.dll
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.pdb
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\Towns.genruntimeconfig.cache
+C:\Users\poods\Desktop\10.Exam-Prep\Towns\Towns\obj\Debug\net6.0\ref\Towns.dll
